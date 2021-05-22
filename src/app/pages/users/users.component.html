@@ -1,0 +1,9 @@
+<h1>Pagina de usuarios</h1>
+<div *ngFor="let user of users$ | async">
+
+  <div style="cursor: pointer" (click)="goToUser(user.id)">
+    <span> {{ user.name }} </span>
+    <span> {{ user.lastname }} </span>
+  </div>
+
+</div>

@@ -1,0 +1,9 @@
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+  display: inline;
+  margin-right: 15px;
+}
